@@ -1,0 +1,25 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta name="fragment" content="!">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>{% if page.title %}iYield - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta name="author" content="iYield">
+  <meta name="keywords" content="property, btl, flip, airbnb, rental, investment">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="stylesheet" href="{{ "/css/semantic.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <script type="text/javascript" charset="utf-8" src="{{ "/scripts/semantic.min.js" | prepend: site.baseurl }}"></script>
+
+  <link rel="shortcut icon" href="http://0.0.0.0:9000/favicon_64x64.png">
+  <link rel="shortcut icon" href="{{ "/images/assets/favicon_64x64.png" | prepend: site.baseurl }}">
+</head>

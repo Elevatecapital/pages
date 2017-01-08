@@ -1,0 +1,9 @@
+# Site settings
+title: iYield
+email: info@iyield.co
+description: "iYield"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://pages.iyield.co"
+
+# Build settings
+markdown: kramdown
